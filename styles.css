@@ -1,0 +1,23 @@
+body{
+    background-color:burlywood
+}
+
+.logo{
+    max-width: 80px;
+    display: block;
+    margin: auto;
+}
+
+.navigation{
+    text-align: center;
+    background-color:blanchedalmond;
+}
+.header{
+    background-color:rgb(153, 135, 95);
+}
+.navigation a {
+    color:dodgerblue;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+}
