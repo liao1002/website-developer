@@ -5,7 +5,7 @@ body{
 .logo{
     max-width: 80px;
     display: block;
-    margin: auto;
+    /*margin: auto;*/
 }
 
 .navigation{
@@ -27,8 +27,13 @@ body{
     background-image: url("images/nathan-dumlao-XOhI_kW_TaM-unsplash.jpg");
     /*to fit image inside banner box, use background-size: contain; */
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+
+.main-header{
+    display: flex;
+    justify-content:space-between;
 }
 .banner h1{
     text-align: center;
