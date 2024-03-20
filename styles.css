@@ -8,7 +8,7 @@ body{
     /*margin: auto;*/
 }
 
-.navigation{
+.navigation a {
     text-align: center;
     background-color:blanchedalmond;
 }
@@ -28,12 +28,17 @@ body{
     /*to fit image inside banner box, use background-size: contain; */
     background-size: cover;
     background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
 .main-header{
     display: flex;
+    flex-direction: row;
     justify-content:space-between;
+    align-items: flex-end;
 }
 .banner h1{
     text-align: center;
@@ -42,4 +47,11 @@ body{
     color: black;
     font-size: 4em;
     text-shadow: 0px 0px 2px #333333;
+    font-weight: 800;
+    color:white;
+    /* x offest y offest blur color */
+    text-shadow: 0px 0px 2px black;
+}
+.banner h1:hover{
+    fliter: blur( 5px );
 }
